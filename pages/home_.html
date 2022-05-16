@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../a-n-m.png" type="image/icon type">
+    <link rel="stylesheet" href="../css/style_.css">
+    <title>Astro No Mia - HOME</title>
+</head>
+<body onload="showUserData()">
+    <figure>
+        <section class="sec" >
+            <aside class="firstSec">
+                <div class="welcome1">
+                    <h2 id="nameUser"></h2> 
+                </div>
+            </aside>
+            <aside class="firstSec imgLogo">
+                <img class="welcomeImg" alt="">
+            </aside>
+        </section>
+
+        <article class="navContainer">
+            <nav><a href="#images_" onclick="toggle(this)">Imagens</a> <a href="#videos_" onclick="toggle(this)">Vídeos</a></nav>
+        </article>
+        <article id="images_" hidden>
+            <section class=" sec info home"> 
+                <aside data-anim="left" >
+                    <a class="imgLinks" target="_blank">
+                        <img class="imgs" alt="">
+                    </a>
+                    <cite class="titles"></cite>
+                    
+                </aside>
+                <aside data-anim="right" class="home">
+                    <p class="texts"></p>
+                </aside>
+            </section>
+            <section class=" sec info home ">
+                <aside data-anim="left" class="home">
+                    <p class="texts"></p>
+                </aside>
+                <aside data-anim="right">
+                    <a class="imgLinks" target="_blank">
+                        <img class="imgs" alt="">
+                    </a>
+                    <cite class="titles"></cite>
+
+                </aside>
+            </section>
+            <section class=" sec info home "> 
+                <aside data-anim="left">
+                    <a class="imgLinks" target="_blank">
+                        <img class="imgs" alt="">
+                    </a>
+                    <cite class="titles"></cite>
+
+                </aside>
+                <aside data-anim="right" class="home">
+                    <p class="texts"></p>
+                </aside>
+            </section>
+            <section class=" sec info home">
+                <aside data-anim="left" class="home">
+                    <p class="texts"></p>
+                </aside>
+                <aside data-anim="right" >
+                    <a class="imgLinks" target="_blank">
+                        <img class="imgs" alt="">
+                    </a> 
+                    <cite class="titles"></cite>
+                </aside>
+            </section>
+            <section class=" sec info home "> 
+                <aside data-anim="left">
+                    <a class="imgLinks" target="_blank">
+                        <img class="imgs" alt="">
+                    </a>
+                    <cite class="titles"></cite>
+                </aside>
+                <aside data-anim="right" class="home">
+                    <p class="texts"></p>
+                </aside>
+            </section>
+        </article>
+        
+        <article id="videos_" hidden>
+            <section class=" sec info home">
+                <iframe class="vids" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload allowfullscreen data-anim="right"></iframe>
+            </section>
+            <section class=" sec info home ">
+                <iframe class="vids" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload allowfullscreen  data-anim="left"></iframe>
+
+            </section>
+            <section class=" sec info home "> 
+                <iframe class="vids" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload allowfullscreen  data-anim="right"></iframe>
+               
+            </section>
+            <section class=" sec info home">
+                <iframe class="vids" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload allowfullscreen  data-anim="left"></iframe>
+               
+            </section>
+            <section class=" sec info home "> 
+                <iframe class="vids" title="YouTube video player" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload allowfullscreen  data-anim="right"></iframe>
+            </section>
+        </article>
+        
+    </figure>
+    <footer class="footer">
+        <address class="contentFooter">
+            <div>Fonte do conteúdo presente na página: <br> <a class="contentFont" href="https://apod.nasa.gov/apod/archivepix.html" target="_blank">https://apod.nasa.gov/apod/archivepix.html</a> <a class="contentFont"  href="https://www.youtube.com/goddardtv" target="_blank"> <br> https://www.youtube.com/goddardtv</a></div>
+            <div>Autor do projeto: <br> Luiz Filipe</div>
+            <div>
+                <sub>Redes Sociais <br></sub><progress></progress> <div></div>
+                <a href="https://github.com/Falx777" target="_blank"><img src="../img/git.png" alt="" width="50"></a>
+                <a href="https://codepen.io/falx777" target="_blank"><img src="../img/codepen.png" alt="" width="50"></a>
+                <a href="https://www.linkedin.com/in/luiz-filipe-de-almeida-xavier-792927233" target="_blank"><img class="social" src="../../HTML Aula/HTML Puro/img/linkedin.png" alt="" width="50"></a>
+                <div></div><progress></progress>
+            </div>
+        </address>
+    </footer>
+    <script src="../js/script2_.js"></script>
+</body>
+</html>

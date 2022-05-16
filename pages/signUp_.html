@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Astro No Mia - CADASTRO</title>
+        <link rel="icon" href="../a-n-m.png" type="image/icon type">
+        <link rel="stylesheet" href="../css/style_.css">
+        <script src="../js/script_.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="loginHeader">
+            <h1>CADASTRO</h1>
+        </header>
+        <figure>
+            <section class="sec signUp" dir="rtl"> 
+                <aside class="formLogin">
+                    <form method="get" action="javascript:submit()">
+                        <aside id="inputs">
+                            <div  dir="ltr">
+                                <h2>NOME</h2>
+                                <input type="text" placeholder='nome' id="name" maxlength="40" minlength="1" required>
+                            </div>
+                            <div dir="ltr">
+                                <h2>DATA DE NASCIMENTO</h2>
+                                <input type="date" placeholder='12-12-2000' id="date" required>
+                            </div>
+                            <div dir="ltr">
+                                <h2>Sexo</h2>
+                                <aside> 
+                                    <input class="sex" type="radio" name="sex" value="o" required>Masculino 
+                                    <input class="sex" type="radio" name="sex" value="a" required>Feminino
+                                    <input class="sex" type="radio" name="sex" value="@" required>Outro
+                                </aside>
+                            </div>
+                            <div dir="ltr"> 
+                                <h2>E-MAIL</h2>
+                                <input type="email" placeholder='exemplo@email.com' id="email" required>
+                            </div>
+                            <div dir="ltr"> 
+                                <h2>SENHA</h2>
+                                <input type="password" placeholder='------------' id="password" maxlength="20" minlength="8" required>
+                            </div>
+                            <div >
+                                <button type="submit" >CADASTRAR</button>
+                            </div>
+                        </aside>
+                        <aside>
+                            
+                        </aside>
+                    </form>
+                </aside>
+                <aside class="imgSignUp">
+                    <img src="../img/Milky Way over Devils Tower cp.jpg" alt="">
+                </aside>
+            </section>
+        </figure>
+        <div class="note">Seu cadastro não será salvo, pois não há um banco de dados vinculado à página. Ao atualizá-la, todo o cadastro deverá ser refeito para acessar a home.</div>
+    </body>
+</html>
