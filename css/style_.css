@@ -308,6 +308,24 @@ body{
 
 /*_____________________________HOME______________________*/
 
+.btnLeave{
+    padding-block: 0.7%;
+    padding-inline: 1.8%;
+    text-decoration: none;
+    border-radius:25px;
+    font-size:22px;
+    width:10%;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+    background: linear-gradient(45deg, transparent 0%, transparent 5%, rgba(60, 46, 255, 0.788) 25%, rgba(86, 82, 145, 0.788) 50%, rgba(72, 71, 85, 0.788) 75%, transparent 95%, transparent 100%);
+    transition: all 0.5s;
+}
+
+.btnLeave:hover{
+    background-color: rgb(49, 49, 49);
+    color:rgb(255, 101, 101);
+}
+
 section.home{
     height: 650px;
 }
